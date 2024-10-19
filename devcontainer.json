@@ -1,10 +1,9 @@
 {
-	"name": "pluczak-dev",
+	"name": "dzbanek-dev",
 	"image": "mcr.microsoft.com/devcontainers/python:3.11-bookworm",
 	"userEnvProbe": "none",
 	"mounts": [
-		"source=/data/TrueNas_pluczak/datasets,target=/datasets,type=bind,consistency=cached",
-		"source=/data/LOCAL_pluczak,target=/LOCAL,type=bind,consistency=cached",
+		"source=/home/dzbanek/VSCodeProjects,target=/projects,type=bind,consistency=cached",
 	],
 	// // // // // // // IF GPU avaialble
 	"hostRequirements": {
@@ -49,10 +48,7 @@
 				"ms-python.mypy-type-checker",
 				"ms-python.black-formatter",
 				"ms-toolsai.jupyter",
-				"visualstudioexptteam.vscodeintellicode",
-				"VisualStudioExptTeam.vscodeintellicode-completions",
-				"donjayamanne.python-environment-manager",
-				"ms-vsliveshare.vsliveshare",
+				"Codeium.codeium"
 			],
 		}
 	},
