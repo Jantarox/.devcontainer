@@ -4,6 +4,7 @@
 	"userEnvProbe": "none",
 	"mounts": [
 		"source=/home/dzbanek/VSCodeProjects,target=/projects,type=bind,consistency=cached",
+		"source=/home/dzbanek/.kaggle,target=/.kaggle,type=bind,consistency=cached",
 	],
 	// // // // // // // IF GPU avaialble
 	"hostRequirements": {
