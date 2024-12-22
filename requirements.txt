@@ -33,6 +33,9 @@ seaborn==0.13.2
 plotly==5.24.1
 kaleido==0.2.1
 
+# Fine-tuning
+ray[tune]==2.39.0
+
 # Storage
 h5py==3.12.1
 lz4==4.3.3
@@ -44,7 +47,7 @@ nbformat==5.10.4
 nbconvert==7.16.4
 
 # Logging
-comet-ml==3.47.0
+comet-ml==3.47.4
 
 # Anciliary
 line-profiler==4.1.3
