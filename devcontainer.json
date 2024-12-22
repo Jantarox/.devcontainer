@@ -38,7 +38,7 @@
 				"python.pythonPath": "/usr/local/bin/python",
 				"terminal.integrated.env.linux": {
 					"PYTHONPATH": "${workspaceFolder}${pathSeparator}${env:PYTHONPATH}"
-				},
+				}
 			},
 			"extensions": [
 				"ms-python.python",
@@ -51,7 +51,7 @@
 				"ms-python.black-formatter",
 				"ms-toolsai.jupyter",
 				"Codeium.codeium"
-			],
+			]
 		}
 	},
 	"postCreateCommand": "pip3 install --user -r .devcontainer/requirements.txt",
